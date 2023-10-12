@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #
-# Updated by Crazy Danish Hacker,abu
-
+# Updated by m-tabarik
 import requests
 import sys
 
@@ -18,7 +17,7 @@ banner = """
     | | |             __/ |
     |_|_|            |___/ 
 
-                      by m-tabarik
+
                       version: {}
 """.format(version, sys.argv[0])
 
