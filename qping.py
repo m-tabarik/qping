@@ -9,7 +9,7 @@ timeout = 3
 verbose = True
 version = "1.0.2"
 banner = """
-             _             
+             _                 
             (_)            
   __ _ _ __  _ _ __   __ _ 
  / _` | '_ \| | '_ \ / _` |
@@ -18,9 +18,8 @@ banner = """
     | | |             __/ |
     |_|_|            |___/ 
 
-                      by TamilBotNet
+                      by m-tabarik
                       version: {}
-      Updated by Crazy Danish Hacker,abu
 """.format(version, sys.argv[0])
 
 usage = "\n [SYNTAX]  python {} target.txt"
