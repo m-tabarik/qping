@@ -54,7 +54,7 @@ def main():
                     extra = "- HTTP 200 OK" if verbose else ""
                     print("[+] Domain is online! ({}) {}".format(url, extra))
                     with open(filename, "a") as output_file:
-                        output_file.write("{}\n".format(url))
+                        output_file.write("{}\n".format(url))    
                         output_file.close()  # Not sure if we need to call close() here as "with open" may handle that.
                 else:
                     extra = "HTTP {}".format(req.status_code) if verbose else ""
