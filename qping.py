@@ -26,7 +26,7 @@ banner = """
 
 usage = "\n [SYNTAX]  python {} target.txt"
 
-# Check if any args have been set.
+# Check if any args have been set.    
 if len(sys.argv) <= 1:
     print(banner)
     print(usage)
