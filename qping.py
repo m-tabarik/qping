@@ -18,6 +18,9 @@ banner = """
     |_|_|            |___/ 
 
 
+
+
+ 
                       version: {}
 """.format(version, sys.argv[0])
 
